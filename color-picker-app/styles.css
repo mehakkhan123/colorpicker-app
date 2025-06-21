@@ -113,6 +113,30 @@
         }
         
         /* responsiveness */
+
+
+        @media (min-width: 320px) and (max-width: 639px) {
+            .container {
+                padding: 32px;
+                gap: 20px;
+                max-width: 448px;
+            }
+            .container h1 {
+                font-size: 32px;
+            }
+            #colorBox {
+                width: 200px;
+                height: 150px;
+            }
+            #hex {
+                font-size: 30px;
+            }
+            #copyBtn {
+                padding: 16px 20px;
+                width: 200px;
+            }
+        }         
+
        @media (min-width: 640px) {
             .container {
                 padding: 32px;
